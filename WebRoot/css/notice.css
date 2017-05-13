@@ -1,0 +1,23 @@
+.match-summary {
+	text-indent: 2em;
+	color: #333;
+	width: 960px;
+	overflow: hidden;
+	height: 100px;
+	margin-bottom: 10px;
+}
+.match-summary img {
+	max-width:960px;
+}
+#match-list {
+}
+#match-list li {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #933;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#match-list h2 {
+	font-size: 18px;
+}

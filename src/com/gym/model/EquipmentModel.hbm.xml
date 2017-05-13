@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+	<class name="EquipmentModel" table="equipment">
+		<id column="eId" name="eId">
+			<!-- hibernate使用内部策略，帮你产生id主键值 -->
+			<generator class="increment" />
+		</id>
+		<property column="eTypeId" generated="never" lazy="false"
+			name="eTypeId" />
+		<property column="buyDate " generated="never" lazy="false"
+			name="buyDate" />
+		<property column="buyCost" generated="never" lazy="false"
+			name="buyCost" />
+		<property column="eFee" generated="never" lazy="false" name="eFee" />
+		<property column="status" generated="never" lazy="false"
+			name="status" />
+		<property column="borrowCount" generated="never" lazy="false"
+			name="borrowCount" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+#help-doc {
+}
+#help-doc dt {
+	font-weight: bold;
+	color: #933;
+	margin-top: 10px;
+	font-size: 18px;
+}
+#help-doc dd {
+	color: #333;
+	text-indent: 2em;
+	font-size: 14px;
+}

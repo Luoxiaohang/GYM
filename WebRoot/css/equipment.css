@@ -1,0 +1,51 @@
+#book-list {
+	width: 960px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#book-list tr th {
+	background-color: #933;
+	color: #FFF;
+	line-height: 30px;
+	font-size: 14px;
+}
+#book-list tr td {
+	background-color: #EEE;
+	line-height: 20px;
+}
+#book-list .book {
+	width: 80px;
+}
+#user-info-list {
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 30px;
+}
+#user-info-list tr th {
+	color: #FFF;
+	background-color: #933;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 5px;
+	width: 130px;
+}
+#user-info-list tr td {
+	padding-left: 15px;
+}
+#filter {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#filter select {
+	height: 25px;
+}
+#rent-submit {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}

@@ -1,0 +1,27 @@
+.match-summary {
+	text-indent: 2em;
+	color: #333;
+}
+#match-list {
+}
+#match-list p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#match-list li {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #933;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#match-list h2 {
+	font-size: 18px;
+}
+.match-article {
+	width: 960px;
+	overflow: hidden;
+}
+.match-article img {
+	max-width: 960px;	
+}

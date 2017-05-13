@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="GroundBookModel" table="groundbook">
+  <id column="bId" name="bId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="uId" generated="never" lazy="false" name="uId"/>
+  <property column="gId" generated="never" lazy="false" name="gId"/>
+  <property column="bDate" generated="never" lazy="false" name="bDate"/>
+  <property column="bStartTime" generated="never" lazy="false" name="bStartTime"/>
+  <property column="bEndTime" generated="never" lazy="false" name="bEndTime"/>
+  <property column="bFee" generated="never" lazy="false" name="bFee"/>
+  <property column="bStatus" generated="never" lazy="false" name="bStatus"/>
+ </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.gym.model">
+	<class name="AdminModel" table="admin">
+		<id name="aId" column="aId">
+			<!-- hibernate使用内部策略，帮你产生id主键值 -->
+			<generator class="increment" />
+		</id>
+		<property name="aName" column="aName" />
+		<property name="aPassword" column="aPassword" />
+		<property name="idCardNo" column="idCardNo " />
+		<property name="birthdate" column="birthdate" />
+		<property name="power" column="power" />
+		<property name="email" column="email" />
+		<property name="phone" column="phone" />
+		<property name="status" column="status" />
+		<property name="aEntry" column="aEntry" />
+	</class>
+</hibernate-mapping>

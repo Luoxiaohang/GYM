@@ -1,0 +1,44 @@
+.equipment-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.equipment-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.equipment-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+#equipment-add {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.punchcard-equipment {
+	margin-top: 15px;
+}
+#book-list {
+	width: 960px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#book-list tr th {
+	background-color: #09C;
+	color: #FFF;
+	line-height: 30px;
+	font-size: 14px;
+}
+#book-list tr td {
+	background-color: #EEE;
+	line-height: 20px;
+	text-align: center;
+
+}

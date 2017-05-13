@@ -1,0 +1,84 @@
+.personnel-admin {
+	float: left;
+	height: 80px;
+	width: 200px;
+	margin-left: 200px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 150px;
+	background-image: url(../images/btn_big.png);
+	background-repeat: no-repeat;
+}
+.personnel-user {
+	float: left;
+	height: 80px;
+	width: 200px;
+	font-size: 24px;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 150px;
+	background-image: url(../images/btn_big.png);
+	background-repeat: no-repeat;
+	margin-left: 200px;
+}
+.personnel-admin a {
+	display: block;
+	color: #FFF;
+}
+.personnel-user a {
+	display: block;
+	color: #FFF;
+}
+.personnel-admin a:hover {
+	display: block;
+	background-image: url(../images/btn_big_hover.png);
+	background-repeat: no-repeat;
+}
+.personnel-user a:hover {
+	display: block;
+	background-image: url(../images/btn_big_hover.png);
+	background-repeat: no-repeat;
+}
+.user-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.user-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.user-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+.admin-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.admin-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.admin-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+#admin-add {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+#admin-add select {
+	margin-left: 20px;
+}

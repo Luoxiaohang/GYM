@@ -1,0 +1,38 @@
+.statistics {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ground-book-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.ground-book-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.ground-book-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+.report-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.report-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.report-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}

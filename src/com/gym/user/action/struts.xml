@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="userPackage" extends="struts-default">
+		<action name="login"
+				class="com.gym.user.action.LoginAction"
+				method="loginCheck">
+				<result name="success" type="dispatcher">/index.jsp</result>
+				<result name="input" type="dispatcher">/login.jsp</result>
+		</action>
+		
+		<action name="matchFound"
+				class="com.gym.user.action.MatchAction"
+				method="mathcFound">
+				<result name="success" type="dispatcher">/match/index.jsp</result>
+		</action>
+		
+		<action name="groundFound"
+				class="com.gym.user.action.GroundAction"
+				method="groundFound">
+				<result name="success" type="dispatcher">/ground/index.jsp</result>
+		</action>
+			
+		<action name="equipmentFound"
+				class="com.gym.user.action.EquipmentAction"
+				method="groundFound">
+				<result name="success" type="dispatcher">/equipment/index.jsp</result>
+		</action>
+		
+		<action name="user"
+				class="com.gym.user.action.UserAction"
+				method="userPersonal">
+				<result name="success" type="dispatcher">/user/index.jsp</result>
+		</action>
+		
+		<action name="notice"
+				class="com.gym.user.action.NoticeAction"
+				method="noticeFound">
+				<result name="success" type="dispatcher">/notice/index.jsp</result>
+		</action>
+		
+		<action name="help"
+				class="com.gym.user.action.HelpAction"
+				method="help">
+				<result name="success" type="dispatcher">/help/index.jsp</result>
+		</action>
+	</package>
+</struts>

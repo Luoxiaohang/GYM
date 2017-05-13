@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="connection.url">
+			jdbc:mysql://127.0.0.1:3306/gymdb
+		</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+
+		<property name="format_sql">true</property>
+
+		<!-- 以下是配置加载映射文件 -->
+		<property name="show_sql">true</property>
+		<mapping resource="com/gym/model/AdminModel.hbm.xml" />
+		<mapping resource="com/gym/model/EquipmentModel.hbm.xml" />
+		<mapping resource="com/gym/model/EquipmentRentModel.hbm.xml" />
+		<mapping resource="com/gym/model/EquipmentTypeModel.hbm.xml" />
+		<mapping resource="com/gym/model/FinancialModel.hbm.xml" />
+		<mapping resource="com/gym/model/GroundModel.hbm.xml" />
+		<mapping resource="com/gym/model/GroundBookModel.hbm.xml" />
+		<mapping resource="com/gym/model/GroundTypeModel.hbm.xml" />
+		<mapping resource="com/gym/model/MatchModel.hbm.xml" />
+		<mapping resource="com/gym/model/NoticeModel.hbm.xml" />
+		<mapping resource="com/gym/model/UserModel.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

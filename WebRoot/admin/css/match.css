@@ -1,0 +1,36 @@
+.match-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.match-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #09C;
+	color: #FFF;
+}
+.match-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+.match-list tr .match-title {
+	width: 450px;
+}
+.match-release-content {
+	width: 850px;
+	height: 400px;
+	margin-left: 35px;
+}
+.match-release-title {
+	width: 400px;
+}
+#match-editor {
+	margin-top: 50px;
+}
+#match-editor table tr td {
+	vertical-align: top;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px;
+}

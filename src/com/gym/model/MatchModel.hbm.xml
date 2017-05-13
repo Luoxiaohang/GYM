@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="MatchModel" table="match">
+  <id column="mId" name="mId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="mName" generated="never" lazy="false" name="mName"/>
+  <property column="mDate" generated="never" lazy="false" name="mDate"/>
+  <property column="aId" generated="never" lazy="false" name="aId"/>
+  <property column="text" generated="never" lazy="false" name="text"/>
+  <property column="status" generated="never" lazy="false" name="status"/>
+ </class>
+</hibernate-mapping>

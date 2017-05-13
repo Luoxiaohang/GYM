@@ -1,0 +1,62 @@
+#login_banner {
+	float: left;
+	width: 650px;
+	margin-top: 80px;
+}
+#login_div {
+	float: right;
+	margin-top: 100px;
+	width: 300px;
+}
+#login_div form .input_text {
+	width: 150px;
+	height: 20px;
+	margin-top: 20px;
+}
+#login_div form .btn {
+	width: 70px;
+	height: 25px;
+	margin-left: 20px;
+}
+#reg_banner {
+	float: left;
+	width: 600px;
+	margin-top: 80px;
+}
+#reg_div {
+	float: right;
+	margin-top: 80px;
+	line-height: 20px;
+	width: 300px;
+}
+#reg_div form .input_text {
+	margin-top: 10px;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+}
+#reg_div form .btn {
+	width: 70px;
+	height: 25px;
+	margin-left: 20px;
+}
+
+
+
+#reset_div {
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 230px;
+}
+#reset_div form .input_text {
+	margin-top: 5px;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+}
+#reset_div form .btn {
+	width: 70px;
+	height: 25px;
+	margin-left: 20px;
+}

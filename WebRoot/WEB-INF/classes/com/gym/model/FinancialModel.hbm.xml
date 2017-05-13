@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="FinancialModel" table="financial">
+  <id column="fId" name="fId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="fOut" generated="never" lazy="false" name="fOut"/>
+  <property column="fIn" generated="never" lazy="false" name="fIn"/>
+  <property column="fInType" generated="never" lazy="false" name="fInType"/>
+  <property column="notes" generated="never" lazy="false" name="notes"/>
+  <property column="date" generated="never" lazy="false" name="date"/>
+ </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="EquipmentTypeModel" table="equipmenttype">
+  <id column="eTypeId" name="eTypeId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="eTypeName" generated="never" lazy="false" name="eTypeName"/>
+ </class>
+</hibernate-mapping>

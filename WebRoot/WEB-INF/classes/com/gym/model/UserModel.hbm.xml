@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="NoticeModel" table="notice">
+  <id column="id" name="id">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="uId" generated="never" lazy="false" name="uId"/>
+  <property column="uName" generated="never" lazy="false" name="uName"/>
+  <property column="uPassword" generated="never" lazy="false" name="uPassword"/>
+  <property column="uEmail" generated="never" lazy="false" name="uEmail"/>
+  <property column="uIdCard" generated="never" lazy="false" name="uIdCard"/>
+  <property column="uPhone" generated="never" lazy="false" name="uPhone"/>
+  <property column="date" generated="never" lazy="false" name="date"/>
+  <property column="status" generated="never" lazy="false" name="status"/>
+ </class>
+</hibernate-mapping>

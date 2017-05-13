@@ -1,0 +1,46 @@
+.ground-list {
+	width: 960px;
+	margin-top: 10px;
+}
+.ground-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #933;
+	color: #FFF;
+}
+.ground-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+.book-list {
+	width: 960px;
+	margin-top: 30px;
+}
+.book-list tr th {
+	line-height: 30px;
+	height: 30px;
+	background-color: #933;
+	color: #FFF;
+}
+.book-list tr td {
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	background-color: #EEE;
+}
+#book-submit {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+.input-box {
+	margin-left: 10px;
+}
+.btn-submit {
+	height: 30px;
+	width: 70px;
+	margin-left: 60px;
+}

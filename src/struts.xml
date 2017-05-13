@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- <include file="cn/itcast/javaee/struts2/interceptor_download/struts.xml"/> 
+		<include file="cn/itcast/javaee/struts2/result_exception/struts.xml"/> <include 
+		file="cn/itcast/javaee/struts2/tag_char/struts.xml"/> <include file="cn/itcast/javaee/struts2/cal/struts.xml"/> -->
+	<include file="com/gym/user/action/struts.xml" />
+	<include file="com/gym/admin/action/struts.xml" />
+
+</struts>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="GroundModel" table="ground">
+  <id column="gId" name="gId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="gName" generated="never" lazy="false" name="gName"/>
+  <property column="tId" generated="never" lazy="false" name="tId"/>
+  <property column="gFee" generated="never" lazy="false" name="gFee"/>
+  <property column="gStatus" generated="never" lazy="false" name="gStatus"/>
+  <property column="gRemark" generated="never" lazy="false" name="gRemark"/>
+  <property column="tName" generated="never" lazy="false" name="tName"/>
+ </class>
+</hibernate-mapping>

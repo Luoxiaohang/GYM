@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gym.model">
+ <class name="NoticeModel" table="notice">
+  <id column="nId" name="nId">
+   <!-- hibernate使用内部策略，帮你产生id主键值 -->
+   <generator class="increment"/>
+  </id>
+  <property column="nTitle" generated="never" lazy="false" name="nTitle"/>
+  <property column="nText" generated="never" lazy="false" name="nText"/>
+  <property column="nDate" generated="never" lazy="false" name="nDate"/>
+  <property column="aId" generated="never" lazy="false" name="aId"/>
+ </class>
+</hibernate-mapping>

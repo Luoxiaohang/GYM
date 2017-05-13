@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.gym.model">
+	<class name="EquipmentRentModel" table="equipmentrent">
+		<id name="eRentId" column="eRentId">
+			<!-- hibernate使用内部策略，帮你产生id主键值 -->
+			<generator class="increment" />
+		</id>
+		<property name="eId" column="eId" />
+		<property name="uId" column="uId" />
+		<property name="borrowBegin" column="borrowBegin " />
+		<property name="borrowEnd" column="borrowEnd" />
+		<property name="borrowFee" column="borrowFee" />
+		<property name="status" column="status" />
+	</class>
+</hibernate-mapping>
